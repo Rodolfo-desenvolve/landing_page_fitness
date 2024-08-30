@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background-color: gray;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+}
+.container .home {
+  width: 100%;
+  background-image: url("./imagem/5.png");
+}
+.container .home .titulo {
+  font-size: 50px;
+  font-weight: 300px;
+  text-align: center;
+  color: #ff5757;
+  padding: 100px 130px;
+}
+.container .home .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  padding: 50px 70px;
+}
+.container .home .flex .conteudo {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+}
+.container .home .flex .conteudo p {
+  font-size: 22px;
+  color: #ff5757;
+}
+.container .home .flex .linha {
+  flex-basis: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container .home .flex .linha p {
+  font-size: 20px;
+  color: #fff;
+}
+.container .home .flex .linha hr {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.container .home .flex .bottuns {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container .home .flex .bottuns .block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+.container .servicos {
+  width: 100%;
+  background-image: linear-gradient(to right, #000, #3533cd);
+}
+.container .servicos .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  padding: 50px 70px;
+}
+.container .servicos .flex .conteudo {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+}
+.container .servicos .flex .conteudo .conteudo2 {
+  display: flex;
+  gap: 5px;
+}
+.container .servicos .flex .conteudo .conteudo2 p {
+  font-size: 16px;
+  color: #ff5757;
+  background-color: #fff;
+  display: flex;
+  padding: 5px 10px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.container .servicos .flex .conteudo .conteudo2 span {
+  font-size: 18px;
+  color: #ff5757;
+}
+.container .servicos .flex .conteudo .circulo {
+  width: 100%;
+  display: flex;
+  width: 175px;
+  height: 175px;
+  background-color: #ff5757;
+  border-radius: 50%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.container .servicos .flex .conteudo .circulo i {
+  font-size: 90px;
+  color: #fff;
+}
+.container .servicos .flex .linha {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.container .servicos .flex .linha .flex {
+  gap: 40px;
+}
+.container .servicos .flex .linha .flex p {
+  font-size: 20px;
+  color: #fff;
+}
+.container .servicos .flex .linha .flex hr {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.container .sobre {
+  width: 100%;
+  background-image: url("./imagem/4.png");
+}
+.container .sobre .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  padding: 50px 70px;
+}
+.container .sobre .flex .conteudo {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  color: #ff5757;
+}
+.container .sobre .flex .conteudo .block {
+  margin-bottom: 70px;
+}
+.container .sobre .flex .conteudo .block h1 {
+  font-size: 50px;
+  padding: 30px 20px;
+}
+.container .sobre .flex .conteudo .block p {
+  font-size: 20px;
+  padding: 50px 10px;
+  margin-bottom: 40px;
+}
+.container .sobre .flex .imagem {
+  flex-basis: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.container .sobre .flex .imagem .img1 {
+  position: absolute;
+  top: 40px;
+}
+.container .sobre .flex .imagem .img1 img {
+  height: 400px;
+}
+.container .sobre .flex .imagem .img2 {
+  position: absolute;
+  bottom: -30px;
+  right: -150px;
+}
+.container .sobre .flex .imagem .img2 img {
+  height: 400px;
+}
+.container .depoimentos {
+  width: 100%;
+  background-image: linear-gradient(to right, #000, #3533cd);
+}
+.container .depoimentos h1 {
+  font-size: 55px;
+  font-weight: 300px;
+  text-align: center;
+  color: #fff;
+  padding: 50px 130px;
+}
+.container .depoimentos .flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+}
+.container .depoimentos .flex .depoimento {
+  flex-basis: 30%;
+  display: flex;
+  flex-direction: column;
+  color: #ff5757;
+  padding: 30px 30px;
+  gap: 30px;
+}
+.container .depoimentos .flex .depoimento i {
+  font-size: 40px;
+}
+.container .depoimentos .flex .depoimento p {
+  font-size: 16px;
+  color: #fff;
+}
+.container .depoimentos .flex .depoimento h2 {
+  font-size: 22px;
+}
+
+a {
+  font-size: 21px;
+  padding: 12px 20px;
+  background-color: #fff;
+  color: #ff5757;
+  text-decoration: none;
+  transition: all 1s;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #ff5757;
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-image: url("./imagem/6.png");
+  color: #ff5757;
+}
+footer .copy {
+  font-size: 14px;
+  color: #fff;
+  padding: 10px 0px;
+  text-align: center;
+  background-image: linear-gradient(to right, #000, #3533cd);
+}
+footer .flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+footer .flex h1 {
+  font-size: 55px;
+  font-weight: 300px;
+  text-align: center;
+  color: #f9ef23;
+  padding: 150px 130px;
+}
+footer .flex .cont {
+  width: 100%;
+  background-image: linear-gradient(to right, #000, #3533cd);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+footer .flex .cont .flex1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .flex .cont .flex1 h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+footer .flex .cont .flex1 p {
+  font-size: 17px;
+}
+footer .flex .cont .flex1 .card-icons {
+  font-size: 40px;
+}
+footer .flex .cont .flex1 .card-icons i:hover {
+  animation: translateY 2s alternate infinite;
+  color: #ff5757;
+}
+@keyframes translateY {
+  to {
+    transform: translateY(0) scale(1);
+  }
+  from {
+    transform: translateY(-8px) scale(1.1);
+  }
+}/*# sourceMappingURL=style.css.map */
